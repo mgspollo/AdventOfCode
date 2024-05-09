@@ -1,4 +1,4 @@
-with open('input/day2.txt') as f:
+with open('../input/full/2_cubic_conundrum.txt') as f:
     input = f.readlines()
 
 GAME_CONFIG = {

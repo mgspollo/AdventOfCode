@@ -1,7 +1,7 @@
 import math
 import string
 
-with open('input/day1.txt') as f:
+with open('../input/full/1_trebuchet.txt') as f:
     input = f.readlines()
 
 def remove_letters(input_string):

@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import string
 
-with open('input/day3.txt') as f:
+with open('../input/full/3_gear_ratios.txt') as f:
     lines = f.readlines()
     input_lines = []
     for line in lines:

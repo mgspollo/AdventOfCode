@@ -1,4 +1,4 @@
-with open('input/day4.txt') as f:
+with open('../input/full/4_scratchcards.txt') as f:
     input = f.readlines()
 
 def get_card_values(line_input, win_list, num_copies, line_num):
