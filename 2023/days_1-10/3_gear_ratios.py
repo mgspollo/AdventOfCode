@@ -28,10 +28,6 @@ def check_adjacent_cells_gears(row, start_col, end_col):
     return False
 
 
-def check_gear_ratio(row, start_col, end_col):
-
-
-
 a = np.column_stack(input_lines).T
 row_num, col_num = a.shape
 a_pad = np.pad(a, 1, mode='constant', constant_values='.')
